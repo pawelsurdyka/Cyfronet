@@ -9,8 +9,6 @@ W katalogu głównym znajdują się dwa skrypty:
 - `upload_files.py` — przechodzi po lokalnym katalogu źródłowym i odtwarza jego strukturę w wybranym Onedata Space;
 - `annotate_images.py` — przechodzi po plikach w Space, rozpoznaje obrazy, odczytuje ich wymiary i zapisuje metadane JSON w formacie:
 
-Wymagają dodania ONEDATA_TOKEN do .env
-
 ```json
 {
   "width": 1920,
@@ -18,7 +16,7 @@ Wymagają dodania ONEDATA_TOKEN do .env
 }
 ```
 
-Pliki niegraficzne są pomijane i nie otrzymują metadanych.
+Wymagają dodania ONEDATA_TOKEN do .env. Pliki niegraficzne są pomijane i nie otrzymują metadanych.
 
 ## Zadanie dodatkowe
 
